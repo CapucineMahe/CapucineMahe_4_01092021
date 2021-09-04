@@ -47,6 +47,9 @@ a:hover {
 .bloc-lg {
     padding: 100px 50px;
 }
+.bloc_contact {
+    padding: 50px 50px;
+}
 
 .bloc-md {
     padding: 50px;
@@ -636,7 +639,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    width: auto;
 }
 
 .hero-bloc-text {
@@ -654,16 +657,46 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
     font-size: 12px;
 }
+.texte_fondnoir {
+    font-size: 1.8rem;
+}
+.texte_sousheader {
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+}
+.signature {
+    font-size: 1.2rem;
+}
+
+.footer_texte {
+    font-size: 1.5rem;
+}
+
+.adresse_agence {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.caption_photos {
+    font-size: 1.5rem;
+}
+
+.index_contactez-nous {
+    background-color: #000000;
+    opacity: 0.6;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding: 4rem 0 4rem 0;
+}
 
 .tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+    max-width: 700px;
+    margin: auto;
 }
 
 .h1 {
@@ -681,7 +714,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 200px;
     margin: auto auto auto auto;
 }
 
@@ -735,7 +768,7 @@ h4 {
 
 .black-background {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 20px 20px 20px 20px;
 }
 
 .bold-link {
@@ -752,7 +785,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {

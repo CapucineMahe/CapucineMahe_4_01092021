@@ -3,20 +3,22 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="ECRIRE QUELQUE CHOSE ICI">
+	<meta name="description" content="La Chouette Agence - Agence de Web Design basée à Lyon. Spécialiste de la conception et création de sites web, création d'identité visuelle, graphisme, stratégie digitale, communication. Accompagnement et conseil pour réaliser vos projets.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<title>Contactez la Chouette Agence de web design à Lyon</title>
 </head>
 
@@ -27,10 +29,11 @@
 		<!-- bloc-0 -->
 		<div class="bloc bgc-white l-bloc " id="bloc-0">
 			<div class="container bloc-sm">
+
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
-								alt="logo de l'agence de web design - La Chouette Agence - version noir&blanc" height="40" /></a>
+								alt="logo de l'agence de web design - La Chouette Agence - version noir&blanc" height="40"/></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 							data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -50,14 +53,17 @@
 
 		<!-- bloc-6 -->
 		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-			<div class="container bloc-lg">
+			<div class="container bloc-lg bloc_contact">
 				<div class="row">
 					<div class="col-sm-12">
 						<h2 class="text-center hero-bloc-text tc-white">
-							Parlons web design !
+							Parlons web design !<br><br>
 						</h2>
-						<p class="text-center mg-lg tc-white tight-width-whitespace">
-							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+						<p class="text-center white footer_texte">
+							Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à
+							nous contacter.<br><br>Nous travaillerons ensemble pour créer des sites beaux et bien structurés,
+							qui seront facilement trouvables sur les moteurs de recherche.<br><br>
+							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br><br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 						</p>
 					</div>
@@ -74,27 +80,27 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>Nom</label>
+								<label>Nom :<br></label>
 								<input id="name" class="form-control" required />
-							</div>
+							</div><br>
 							<div class="form-group">
-								<label>Adresse email</label>
+								<label>Adresse email :<br></label>
 								<input id="email" class="form-control" type="email" required />
-							</div>
+							</div><br>
 							<div class="form-group">
-								<label>Comment nous avez-vous connu ?</label>
+								<label>Comment nous avez-vous connu ?<br></label>
 								<input class="form-control" type="email" required id="input_504" />
-							</div>
+							</div><br>
 							<div class="form-group">
-								<label>Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+								<label>Brief de votre projet (Ajoutez autant de détails que nécessaire) :<br></label>
 								<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit"> Envoyer
 							</button>
 						</form>
-					</div>
+					</div><br>
 					<div class="col-sm-6">
-						<p>
+						<p class="adresse_agence">
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
 							au vendredi<br>
 						</p>
@@ -116,7 +122,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<p class="text-center white">
-							La Chouette Agence - Agence web design basée à Lyon
+							La chouette agence - Agence web basée à Lyon<br><br><br>
 						</p>
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
@@ -136,8 +142,7 @@
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span
-											class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
 						</div>
