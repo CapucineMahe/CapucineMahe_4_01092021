@@ -666,8 +666,10 @@ p {
 }
 
 .footer_texte {
-    font-size: 1.8rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     margin-bottom: -2rem;
+    color: black!important;
 }
 
 .adresse_agence {
@@ -679,8 +681,8 @@ p {
 }
 .index_contactez-nous {
     background-color: rgba(36,36,36, 0.9);
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
     padding: 4rem 0 4rem 0;
 }
 .nom_agence_souslogo {
@@ -692,9 +694,29 @@ p {
  .icones_footer {
      padding: 1rem 0 1rem 0;
      color: white;
+     text-shadow: 1px 1px 2px black;
  }
 
+ .bouton_contact {
+    text-shadow: 1px 1px 2px black;
+ }
 
+ .parlons_design {
+    background-color: rgba(36,36,36, 0.9);
+    padding: 1rem 0 1rem 0;
+    margin: 0 20% 0 20%;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+ }
+ .redonner_vie {
+     font-size: 2.3rem;
+ }
+
+ .parlez_nous {
+     font-size: 1.3rem;
+     text-shadow: none;
+     color: black;
+ }
 
 
 .tight-width-whitespace {
@@ -740,10 +762,6 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
-}
-
-h4 {
     color: #333333!important;
 }
 
