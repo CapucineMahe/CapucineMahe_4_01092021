@@ -668,14 +668,15 @@ p {
 }
 .texte_sousheader {
     font-size: 1.8rem;
-    padding-bottom: 2rem;
+    margin: 0 2rem 0 2rem;
 }
 .signature {
     font-size: 1.2rem;
 }
 
 .footer_texte {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-bottom: -2rem;
 }
 
 .adresse_agence {
@@ -685,14 +686,25 @@ p {
 .caption_photos {
     font-size: 1.5rem;
 }
-
 .index_contactez-nous {
-    background-color: #000000;
-    opacity: 0.6;
-    margin-right: 10rem;
-    margin-left: 10rem;
+    background-color: rgba(36,36,36, 0.9);
+    margin-right: 10%;
+    margin-left: 10%;
     padding: 4rem 0 4rem 0;
 }
+.nom_agence_souslogo {
+    background-color: rgba(36,36,36, 0.9);
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 2rem 0 2rem 0;
+}
+ .icones_footer {
+     padding: 1rem 0 1rem 0;
+     color: white;
+ }
+
+
+
 
 .tight-width-whitespace {
     max-width: 700px;
@@ -794,8 +806,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #F3976C!important;
+    color: black!important;
 }
 
 .ltc-white {
