@@ -626,7 +626,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -671,13 +671,13 @@ p {
     margin-bottom: -2rem;
     color: black!important;
 }
-
 .adresse_agence {
     text-align: center;
     font-size: 1.4rem;
 }
 .caption_photos {
     font-size: 1.5rem;
+    text-align: center;
 }
 .index_contactez-nous {
     background-color: rgba(36,36,36, 0.9);
@@ -702,18 +702,24 @@ p {
  }
 
  .parlons_design {
-    background-color: rgba(36,36,36, 0.9);
+    background-color: white;
+    opacity: 0.8;
+    color: black;
     padding: 1rem 0 1rem 0;
     margin: 0 20% 0 20%;
     margin-bottom: 3rem;
     font-size: 3rem;
+ }
+ .parlons_design_texte {
+font-size: 1.7rem;
  }
  .redonner_vie {
      font-size: 2.3rem;
  }
 
  .parlez_nous {
-     font-size: 1.3rem;
+     font-size: 1.5rem;
+     font-weight: bold;
      text-shadow: none;
      color: black;
  }
