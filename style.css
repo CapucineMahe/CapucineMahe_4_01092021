@@ -698,7 +698,7 @@ p {
  }
 
  .bouton_contact {
-    text-shadow: 1px 1px 2px black;
+background-color: white;
  }
 
  .parlons_design {
@@ -816,8 +816,8 @@ h1 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    border-color: black;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
